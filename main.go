@@ -110,7 +110,7 @@ func updateBoxes() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		log.Printf("API Error: %d - %s", apiErr.Error.Status, apiErr.Error.Code)
+		log.Printf("API Error: %d - %s\n", apiErr.Error.Status, apiErr.Error.Code)
 		return
 	}
 
@@ -137,7 +137,7 @@ func updateBoxes() {
 			if err != nil {
 				log.Fatal(err)
 			}
-			log.Printf("API Error: %d - %s", apiErr.Error.Status, apiErr.Error.Code)
+			log.Printf("API Error: %d - %s\n", apiErr.Error.Status, apiErr.Error.Code)
 			return
 		}
 
