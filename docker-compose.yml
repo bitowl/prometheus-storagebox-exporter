@@ -6,4 +6,4 @@ services:
     env_file:
       - .env
     ports:
-      - 9509:9509
+      - 127.0.0.1:9509:9509
