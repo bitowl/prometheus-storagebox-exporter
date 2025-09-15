@@ -92,7 +92,7 @@ func updateMetrics() {
 
 		// Try to avoid rate limiting
 		// Limit is 200req / 1h
-		time.Sleep(60 * time.Second)
+		time.Sleep(3600 * time.Second)
 	}
 }
 
