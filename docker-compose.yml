@@ -1,7 +1,7 @@
 services:
   storagebox-exporter:
     build: .
-    image: fleaz/prometheus-storagebox-exporter
+    container_name: prometheus-storagebox-exporter
     restart: always
     env_file:
       - .env
